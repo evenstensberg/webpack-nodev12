@@ -1,0 +1,19 @@
+{
+  "name": "testy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "buildFlag": "node --experimental-modules ./node_modules/webpack-cli/bin/cli.js",
+    "build": "webpack",
+    "p": "open ./index.html"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^4.41.0",
+    "webpack-cli": "file:../webpack-cli"
+  }
+}
